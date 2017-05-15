@@ -1,6 +1,7 @@
 package cn.com.qs;
 
 import cn.com.qs.Thread.JoinThread;
+import cn.com.qs.Thread.WaitThread;
 import org.junit.Test;
 
 /**
@@ -12,5 +13,9 @@ public class ThreadTest {
     public void testJoin() throws InterruptedException {
         new Thread(new JoinThread()).start();
         Thread.sleep(100000);
+    }
+    @Test
+    public void testWait(){
+        new Thread(new WaitThread()).start();
     }
 }
