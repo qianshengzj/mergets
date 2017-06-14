@@ -55,6 +55,7 @@
             <version>2.6.1</version>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
         </dependency>
@@ -72,6 +73,21 @@
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
             <version>3.8</version>
+=======
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.31</version>
+>>>>>>> 92f2c0098fd2642e740b9dbc80c06879d2e9629d
         </dependency>
     </dependencies>
     <build>
