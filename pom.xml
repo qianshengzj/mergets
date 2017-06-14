@@ -55,25 +55,6 @@
             <version>2.6.1</version>
         </dependency>
         <dependency>
-<<<<<<< HEAD
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.6.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eweb4j</groupId>
-            <artifactId>fel</artifactId>
-            <version>0.8</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hazelcast</groupId>
-            <artifactId>hazelcast</artifactId>
-            <version>3.8</version>
-=======
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>3.6.0</version>
@@ -87,20 +68,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.31</version>
->>>>>>> 92f2c0098fd2642e740b9dbc80c06879d2e9629d
+
         </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
-<<<<<<< HEAD
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>1.5.4.RELEASE</version>
-                <configuration>
-                    <mainClass>cn.com.qs.App</mainClass>
-=======
-
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.3.RELEASE</version>
@@ -108,17 +81,12 @@
                     <mainClass>
                         cn.com.qs.HelloWorldApp
                     </mainClass>
->>>>>>> a7b470f2ccfeff031e93d8561888e81b0d8d66f1
                 </configuration>
                 <executions>
                     <execution>
                         <goals>
                             <goal>repackage</goal>
                         </goals>
-<<<<<<< HEAD
-=======
-
->>>>>>> a7b470f2ccfeff031e93d8561888e81b0d8d66f1
                     </execution>
                 </executions>
             </plugin>
