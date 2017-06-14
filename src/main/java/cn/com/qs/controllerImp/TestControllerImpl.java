@@ -1,6 +1,7 @@
 package cn.com.qs.controllerImp;
 
 import cn.com.qs.controller.TestController;
+import cn.com.qs.exception.TestException;
 import org.springframework.stereotype.Controller;
 
 /**
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class TestControllerImpl implements TestController{
 
-    public String helloWorld(){
-        return "test";
+    public String helloWorld() throws Exception {
+        throw new TestException("test");
     }
 }

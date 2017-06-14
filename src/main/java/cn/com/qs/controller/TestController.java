@@ -11,5 +11,5 @@ public interface TestController {
 
     @RequestMapping("/test")
     @ResponseBody
-     String helloWorld();
+     String helloWorld() throws Exception;
 }
